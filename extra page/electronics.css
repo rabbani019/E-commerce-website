@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F4F6;
+    padding: 0px 30px 0px 30px;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav img{
+    height: 40px;
+    margin-right: 330px;
+}
+.sing-icon-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.sing-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-number{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.nav-number{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    line-height: 1.5;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    
+
+}
+.nav-icon i{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#click{
+    display: none;
+}
+.mune{
+    font-size: 20px;
+    display: none;  
+}
+
+
+
+/* Footer part start here */
+.five-column-container{
+    margin: 100px 350px 70px 350px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.one-column{
+    width: 350px;
+}
+.one-column img{
+    height: 40px;
+}
+.one-column p{
+    margin: 20px 0px;
+    line-height: 1.5em;
+}
+.one-column button{
+    padding:20px;
+    background-color: rgb(30, 95, 235);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.one-column button:hover{
+    cursor: pointer;
+}
+.common-column p{
+    margin: 20px 0px;
+}
+.common-column p a{
+    text-decoration: none;
+    color: black;
+}
+.common-column p a:hover{
+    color: red;
+}
+.footer-p-icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 350px;
+}
+.footer-p-icon-container .icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-p-icon-container .icon-container div{
+    margin: 0px 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    line-height: 2.8;
+}
+.footer-p-icon-container .icon-container div i{
+    margin-left: 14px;
+}
